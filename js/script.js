@@ -10,7 +10,7 @@ if(randomNumber >= 7 && randomNumber <=10){
   }else{
     $('#result').html('<img src="images/paa.png" alt="">');
   }
-    // $('.result').html('チョキ');
+    
 
 if(randomNumber >= 7 && randomNumber <=10){
     $('#final-result').html('<img src="images/win.png" alt="">');
@@ -33,7 +33,7 @@ $("#btn2").on('click', function(){
     }else{
       $('#result').html('<img src="images/guu.png" alt="">');
     }
-      // $('.result').html('チョキ');
+    
   
   if(randomNumber >= 7 && randomNumber <=10){
       $('#final-result').html('<img src="images/win.png" alt="">');
@@ -56,7 +56,7 @@ $("#btn2").on('click', function(){
       }else{
         $('#result').html('<img src="images/tyoki.png" alt="">');
       }
-        // $('.result').html('チョキ');
+    
     
     if(randomNumber >= 7 && randomNumber <=10){
         $('#final-result').html('<img src="images/win.png" alt="">');
